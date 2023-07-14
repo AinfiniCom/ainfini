@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px; /* 添加圆角 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+header {
+    background: #000000;
+    background: linear-gradient(to right, #000000, #434343); /* 添加背景颜色渐变 */
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+}
+
+header h1 {
+    padding: 5px 0;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main {
+    padding: 20px;
+    background: white;
+    color: #333;
+}
+
+main h2, h3 {
+    padding: 5px 0;
+    border-bottom: 1px solid #e2e2e2; /* 为标题添加下划线 */
+}
+
+main p {
+    text-indent: 2em;
+    margin-bottom: 10px; /* 为段落添加底部边距 */
+}
